@@ -1,0 +1,18 @@
+{
+    "require": {
+        "gabordemooij/redbean": "^5.2",
+        "leocavalcante/siler": "^1.1",
+        "webonyx/graphql-php": "^0.12.6",
+        "react/event-loop": "^1.0",
+        "react/http": "^0.8.3",
+        "zendframework/zend-diactoros": "^2.0",
+        "cboden/ratchet": "^0.4.1",
+        "ratchet/pawl": "^0.3.2"
+    },
+    "repositories": {
+        "packagist.org": {
+            "type": "composer",
+            "url": "https://repo-eu-uk-1.packagist.org"
+        }
+    }
+}

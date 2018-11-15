@@ -1,0 +1,28 @@
+"""
+A type that describes a contract.
+"""
+type Contract {
+  id: Int!
+  content: String! @deprecated
+  contentWithExclamationMark: String! @deprecated
+  "The contract content. Might be empty."
+  maybeContent: String
+  "The contract content with an exclamation mark. Might be empty."
+  maybeContentWithExclamationMark: String
+  "The contract secret. Requires enough permission."
+  secret: String
+}
+
+type Query {
+  "List all contracts"
+  contracts: [Contract!]!
+}
+
+type Mutation {
+  "Create a new contract. Requires enough permission."
+  contract(content: String, secret: String): Contract
+}
+
+type Subscription {
+  contracts: [Contract!]!
+}
