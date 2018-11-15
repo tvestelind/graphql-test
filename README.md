@@ -40,3 +40,8 @@ sudo npm install -g @2fd/graphdoc
 graphdoc -e http://localhost:8080 -o ./doc/schema
 firefox doc/schema/index.html
 ```
+
+## Resources
+* http://graphql.org/
+* https://siler.leocavalcante.com/graphql/
+* https://github.com/chentsulin/awesome-graphql
